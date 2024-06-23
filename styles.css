@@ -1,0 +1,80 @@
+body {
+    font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3f3e3e;
+    font-size: 20px;
+}
+
+.calculator {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 400px;
+    height: 300px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+label {
+    margin-bottom: 10px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+button:hover {
+    background-color: #45a049;
+    transition: 0.5s;
+    border-radius: 15px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
